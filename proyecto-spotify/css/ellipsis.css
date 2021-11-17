@@ -1,0 +1,8 @@
+.ellipsis{
+    /* background-color:red; */
+    /* border: solid <green; */
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

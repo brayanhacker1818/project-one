@@ -1,0 +1,11 @@
+.playerPlayback{
+   display: flex;
+   align-items: center;
+   gap:.5rem;
+
+}
+
+.playerPlayback-slider{
+    /* border: solid red 1px; */
+    flex:1;
+}

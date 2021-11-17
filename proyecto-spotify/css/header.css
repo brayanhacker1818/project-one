@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    /* background-color:red; */
+    /* border:solid blue 1px; */
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-block-end: 1rem;
+    padding-block-start: 1rem;
+    align-items:center;
+    gap: 1rem;
+   
+}
+
+@supports not( backdrop-filter:blur(8px)){
+    .header{
+        background:var(--gray30);
+    }
+}

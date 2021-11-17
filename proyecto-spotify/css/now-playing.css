@@ -1,0 +1,39 @@
+
+.now-playing{
+    /* border:solid red 1px; */
+    display:flex;
+   gap: .5rem;
+    
+
+}
+.nowplaying-description{
+    display: flex;
+    flex-direction: column;
+}
+.nowPlaying-details{
+    display:flex;
+   gap: 1.5rem;
+   align-items: center;
+
+
+}
+.nowplaying-tittle{
+    color:var(--white);
+   font: var(--baseFontBold);
+   text-decoration:none;
+
+}
+
+.nowplaying-artist{
+    text-decoration: none;
+    color: var(--gray10);
+    color:var(--white);
+    /* font:var(--small); */
+
+
+}
+.nowplaying-image img {
+inline-size: 3.5rem;
+block-size: 3.5rem;
+vertical-align: middle;
+}

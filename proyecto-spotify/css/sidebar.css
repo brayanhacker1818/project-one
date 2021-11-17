@@ -1,0 +1,9 @@
+.sidebar{
+    background-color: var(--gray60);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-block-start: 1.25rem;
+    scroll-padding-block-end: 1.25rem;
+    /* inline-size:300px; */
+}

@@ -1,0 +1,60 @@
+.playlistA{
+    /* border:solid red 1px; */
+    inline-size: 12.3em;
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--gray40);
+    box-sizing: border-box;
+    transition: .3s;
+    
+    
+}
+
+.playlistA:hover, .playlistA:focus-within {
+    background-color: var(--gray30);
+    cursor: pointer;
+}
+
+.playlistA:hover .playlistA-cover button{
+    opacity: 1;
+    transform: translateY(0);
+    
+
+}
+
+
+.playlistA img{
+    vertical-align: middle;
+    /* inline-size: 100%;
+    block-size: 100%; */
+    border-radius:.75rem;
+
+}
+.playlistA-cover{
+    flex: 1;
+    position: relative;
+    border-radius:.75rem;
+    overflow: hidden;
+    margin-block-end: 1rem;
+
+}
+.playlistA button{
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    opacity: 0;
+    will-change: (opacity,transform);
+    transform: translateY(.5rem);
+    transition:.3s opacity, 1s transform ;
+}
+.playlistA-tittle{
+    font:var(--baseFontBold);
+    color: var(--white);
+    margin: 0;
+}
+
+.playlistA-description{
+    font:var(--baseFont);
+    margin: 0;
+
+}

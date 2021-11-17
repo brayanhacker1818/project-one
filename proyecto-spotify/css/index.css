@@ -1,0 +1,93 @@
+@import'icons.css';
+@import'fonts.css';
+@import'body.css';
+@import'links.css';
+@import'button.icon.css';
+@import'logo.css';
+@import'list.css';
+@import'menu.css';
+@import 'sidebar.css';
+@import'ellipsis.css';
+@import'player.css';
+@import'play-listA.css';
+@import'play-listB.css';
+@import'playlist-list.css';
+@import'search.css';
+@import'navigation.css';
+@import'header.css';
+@import'page.css';
+@import'sticky.css';
+@import'layout.css';
+@import'scrollbar.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+     font-size: 14px;
+    --primaryColor:#00b050;    
+    --white: #ffffff;
+    --gray10:#B3B3B3;
+    --gray20:#737373;
+    --gray30:#282828;
+    --gray40:#181818;
+    --gray50:#121212;
+    --gray60:#000000;
+    --baseFontFamily:avenir, helvetica,sans-serif;
+    --headline1: bold 2rem/normal var(--baseFontFamily);
+    --title: bold 1.5rem/1.75rem var(--baseFontFamily);
+    --baseFont:normal .875rem/1.375rem  var(--baseFontFamily);
+    --baseFontBold:bold .875rem/1.375rem  var(--baseFontFamily);
+    --butoon: bold .875rem/1rem  var(--baseFontFamily);
+    --small: normal 75em/normal var(--baseFontFamily);
+
+
+    
+
+}
+@media screen and (min-width:768px) {
+    :root{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width:1366px) {
+    :root{
+        font-size: 18px;
+    }
+    
+}
+/* 
+@media screen and (min-widht:1366px){
+    :root{
+        font-size: 40px;}
+
+} */
+
+body{
+    background-color: var(--primaryColor);
+    font:var(--headline1);
+    /* font-family: avenir; */
+}
+
+.icon-close{
+    font-size:70px;
+    color:red;
+}
+
+.icon-close:hover{
+    color:orange;
+}
